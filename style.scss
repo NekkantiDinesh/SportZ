@@ -5,6 +5,9 @@ $background-color_1: orangered;
 $background-color_2: #0000004D;
 $background-color_3: #002947;
 $background-color_4: #ec830a;
+$background-color_5: #2A711F;
+$background-color_6: white;
+$background-color_7: #08131B;
 
 body {
 	padding: 0px;
@@ -162,4 +165,253 @@ tr {
 	td {
 		padding: 0px 27px;
 	}
+}
+.greenField {
+	position: relative;
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 95%;
+	height: 60%;
+	background-color: $background-color_5;
+	border-radius: 10px;
+	z-index: 0;
+}
+.strip1 {
+	position: absolute;
+	left: 5%;
+	z-index: -1;
+	top: 1px;
+}
+.strip2 {
+	position: absolute;
+	left: 25%;
+	z-index: -1;
+	top: 1px;
+}
+.strip3 {
+	position: absolute;
+	left: 45%;
+	z-index: -1;
+	top: 1px;
+}
+.strip4 {
+	position: absolute;
+	left: 65%;
+	z-index: -1;
+	top: 1px;
+}
+.strip5 {
+	position: absolute;
+	left: 85%;
+	z-index: -1;
+	top: 1px;
+}
+.boundary {
+	position: absolute;
+}
+.wicketKeepers {
+	position: absolute;
+	font-size: 12px;
+	top: 0;
+}
+.batsmen {
+	position: absolute;
+	font-size: 12px;
+	top: 135px;
+}
+.allRounder {
+	position: absolute;
+	top: 235px;
+	font-size: 12px;
+}
+.bowler {
+	position: absolute;
+	top: 310px;
+	font-size: 12px;
+}
+.cricketpitch {
+	position: absolute;
+	z-index: -1;
+	opacity: 0.3;
+}
+.stump {
+	position: absolute;
+	top: 35.5%;
+	opacity: 0.3;
+}
+.bowling {
+	position: absolute;
+	top: 58%;
+	opacity: 0.3;
+}
+.dhoni {
+	img {
+		&::after {
+			position: absolute;
+			content: "c";
+			font-size: 20px;
+			background-color: $background-color_4;
+			padding: 20px;
+			z-index: 2;
+			top: 0;
+		}
+		position: absolute;
+		top: -38px;
+		z-index: -1;
+		right: 25px;
+	}
+	position: absolute;
+	text-align: center;
+	top: 90px;
+}
+.sharma {
+	img {
+		position: absolute;
+		top: -38px;
+		z-index: -1;
+		right: 25px;
+	}
+	position: absolute;
+	text-align: center;
+	top: 210px;
+	left: 5px;
+}
+.taylor {
+	img {
+		position: absolute;
+		top: -38px;
+		z-index: -1;
+		right: 25px;
+	}
+	position: absolute;
+	text-align: center;
+	top: 210px;
+	left: 85px;
+}
+.williamson {
+	img {
+		position: absolute;
+		top: -38px;
+		z-index: -1;
+		right: 25px;
+	}
+	position: absolute;
+	text-align: center;
+	top: 210px;
+	left: 155px;
+}
+.agarwal1 {
+	img {
+		position: absolute;
+		top: -38px;
+		z-index: -1;
+		right: 25px;
+	}
+	position: absolute;
+	text-align: center;
+	top: 210px;
+	left: 255px;
+}
+.agarwal2 {
+	img {
+		position: absolute;
+		top: -38px;
+		z-index: -1;
+		right: 25px;
+	}
+	position: absolute;
+	text-align: center;
+	top: 210px;
+	left: 340px;
+}
+.neesham {
+	img {
+		position: absolute;
+		top: -38px;
+		z-index: -1;
+		right: 25px;
+	}
+	position: absolute;
+	text-align: center;
+	top: 290px;
+	left: 105px;
+}
+.jadeja {
+	img {
+		position: absolute;
+		top: -38px;
+		z-index: -1;
+		right: 25px;
+	}
+	position: absolute;
+	text-align: center;
+	top: 290px;
+	left: 255px;
+}
+.southee {
+	img {
+		position: absolute;
+		top: -38px;
+		z-index: -1;
+		right: 25px;
+	}
+	position: absolute;
+	text-align: center;
+	top: 380px;
+	left: 10px;
+}
+.bumrah {
+	img {
+		position: absolute;
+		top: -38px;
+		z-index: -1;
+		right: 25px;
+	}
+	position: absolute;
+	text-align: center;
+	top: 380px;
+	left: 130px;
+}
+.henry {
+	img {
+		position: absolute;
+		top: -38px;
+		z-index: -1;
+		right: 25px;
+	}
+	position: absolute;
+	text-align: center;
+	top: 380px;
+	left: 240px;
+}
+.kumar {
+	img {
+		position: absolute;
+		top: -38px;
+		z-index: -1;
+		right: 25px;
+	}
+	position: absolute;
+	text-align: center;
+	top: 380px;
+	left: 350px;
+}
+.nameBg {
+	background-color: $background-color_6;
+	color: $color_2;
+	border-radius: 5px;
+	padding: 5px 10px;
+	font-size: 12px;
+	margin-top: -10px;
+	z-index: 5;
+}
+.blackBg {
+	background-color: $background-color_7;
+	color: $color_1;
+}
+.cost {
+	margin-top: -10px;
+	font-size: 10px;
 }
