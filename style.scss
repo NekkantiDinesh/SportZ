@@ -1,0 +1,165 @@
+$color_1: white;
+$color_2: black;
+$font-family_1: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$background-color_1: orangered;
+$background-color_2: #0000004D;
+$background-color_3: #002947;
+$background-color_4: #ec830a;
+
+body {
+	padding: 0px;
+	margin: 0px;
+	color: $color_1;
+	font-family: $font-family_1;
+}
+.dailyFantasy {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 20px;
+}
+.mobile {
+	width: 450px;
+	height: 700px;
+	background: #002947;
+}
+.team_navbar_left {
+	margin-left: 10px;
+	display: flex;
+	align-items: center;
+	>img {
+		border: 1px solid white;
+		border-radius: 3px;
+	}
+	>p {
+		margin-left: 10px;
+	}
+}
+h3 {
+	margin: 10px 10px;
+}
+.team_navbar {
+	color: $color_1;
+	display: flex;
+	justify-content: space-between;
+	margin-top: -10px;
+}
+.team_navbar_right {
+	display: flex;
+	align-items: center;
+	>p {
+		margin: 0px 20px 0px 0px;
+		border-radius: 50%;
+		border: 2px solid white;
+		padding: 0px 7px;
+	}
+}
+.time {
+	background: #024B5C;
+	padding: 5px 15px;
+	border-radius: 5px;
+	margin-right: 20px;
+}
+.teams {
+	margin-top: 30px;
+}
+.newZealand {
+	background: #0000004D;
+}
+.basicInfo {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.credit {
+	border-radius: 5px;
+	background: #024B5C;
+	margin: 5px;
+	h3 {
+		&::after {
+			content: "Credit Left";
+			font-size: 10px;
+			font-weight: 300;
+			margin-left: 5px;
+		}
+	}
+}
+.players {
+	border-radius: 5px;
+	background: #024B5C;
+	margin: 5px;
+	h3 {
+		&::after {
+			content: "Players";
+			font-size: 10px;
+			font-weight: 300;
+			margin-left: 5px;
+		}
+	}
+}
+.slider {
+	width: 100px;
+	height: 5px;
+}
+.list {
+	display: flex;
+	padding: 0px 15px;
+	align-items: center;
+	background-color: $background-color_1;
+	border-radius: 50px;
+}
+.pitch {
+	display: flex;
+	padding: 0px 15px;
+	align-items: center;
+}
+.lisypitch {
+	background-color: $background-color_2;
+	border-radius: 50px;
+	height: 50px;
+	display: flex;
+}
+.credplay {
+	display: flex;
+}
+.tableStart {
+	margin: 10px;
+	background: white;
+	color: $color_2;
+	border-radius: 5px;
+}
+.ind {
+	background: #e1e9eb;
+	border-radius: 10px;
+}
+table {
+	border: none;
+	background-color: $background-color_3;
+	border-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+.footerSection {
+	display: flex;
+	justify-content: end;
+}
+.settings {
+	background-color: $background-color_4;
+	padding: 15px;
+	border-radius: 70px;
+}
+.continueButton {
+	background-color: $background-color_4;
+	border-style: none;
+	padding: 15px 50px;
+	border-radius: 5px;
+	margin-left: 20px;
+	margin-right: 10px;
+	font-size: 20px;
+	color: $color_1;
+}
+tr {
+	td {
+		padding: 0px 27px;
+	}
+}
